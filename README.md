@@ -93,7 +93,5 @@ El pipeline está configurado en GitHub Actions y se ejecuta automaticamente en:
 ### Etapas del pipeline:
 - **Build:** Construye la imagen Docker
 
-- **Test:** Ejecuta tests unitarios y análisis estático
-
 - **Deploy (solo main):** Despliega en Kubernetes
 
