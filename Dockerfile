@@ -1,14 +1,14 @@
 FROM python:3.11
 
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install -y \
-        git \
-        nginx
+WORKDIR /DevOps-Technical
 
 # Instalar requirementos
 COPY requirements.txt .
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 
-WORKDIR /DevOps-Technical
+COPY . .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

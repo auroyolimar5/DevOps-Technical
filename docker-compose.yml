@@ -1,12 +1,12 @@
 version: '3'
 services:
   app:
-    image: devops-microservice
+    image: devops-msa
     deploy:
       replicas: 2
   load-balancer:
     image: nginx
     ports:
-      - "80:80"
+      - "8000:8000"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
