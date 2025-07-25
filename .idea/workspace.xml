@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="171c8a46-faac-4baf-8b09-54f18d557292" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/infra/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -78,6 +83,10 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
       <method v="2" />
     </configuration>
   </component>
